@@ -1,6 +1,4 @@
 #include "klass.h"
-#include <iostream>
-using namespace std;
 
 ostream &operator<<(ostream &cout,  CComplexVector &s){s.print(); return cout;}
 ostream &operator<<(ostream &cout,  CComplexNum &s){s.print(); return cout;}
